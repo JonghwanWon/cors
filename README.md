@@ -13,7 +13,7 @@ vercel
 ```
 
 [Declare an environment variable.](https://vercel.com/docs/concepts/projects/environment-variables#declare-an-environment-variable)
-`APP_URL=YOUR_APP_URL_HERE`
+`APP_URL=YOUR_APP_URL_HERE` (e.g. APP_URL=https://example.org)
 
 After the first deployment this command will deploy to a preview branch. You will need to include --prod to push changes directly to the live site for future deployments.
 
